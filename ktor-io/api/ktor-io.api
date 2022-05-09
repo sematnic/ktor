@@ -68,7 +68,6 @@ public abstract class io/ktor/utils/io/ByteChannelSequentialBase : io/ktor/utils
 	public fun readUTF8LineTo (Ljava/lang/Appendable;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
 	public fun request (I)Lio/ktor/utils/io/core/internal/ChunkBuffer;
 	protected final fun setClosed (Z)V
-	public final fun setClosedCause (Ljava/lang/Throwable;)V
 	public fun startReadSession ()Lio/ktor/utils/io/SuspendableReadSession;
 	public fun writeAvailable (Lio/ktor/utils/io/core/internal/ChunkBuffer;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
 	public fun writeAvailable ([BIILkotlin/coroutines/Continuation;)Ljava/lang/Object;
